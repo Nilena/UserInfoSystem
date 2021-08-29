@@ -1,2 +1,9 @@
-<button  (click)="albumbs()">Albums</button>
-<button  (click)="posts()">Post</button>
+
+
+<mat-list>
+    <p>
+        {{userData.name}}
+    </p>
+    <mat-list-item (click)="albumbs()"> Albums </mat-list-item>
+    <mat-list-item (click)="posts()"> Post </mat-list-item>
+</mat-list>

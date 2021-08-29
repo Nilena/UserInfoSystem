@@ -11,6 +11,7 @@ import { MatListModule } from '@angular/material/list';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { RouterModule } from '@angular/router';
 import { UserDetailService } from './services/user-detail.service';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { UserDetailService } from './services/user-detail.service';
     HttpClientModule,
     AppRoutingModule,
     MatListModule,
+    MatButtonModule,
     BrowserAnimationsModule
   ],
   providers: [UserDetailService],
